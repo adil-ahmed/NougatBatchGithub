@@ -3,6 +3,7 @@
     package="com.teamflybd.nougatbatchgithub">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,12 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".ProgressDialogActivity" />
+        <activity android:name=".IntentEmail" />
+        <activity android:name=".IntentCall">
 
         </activity>
-        <activity android:name=".ProgressDialogActivity" />
-        <activity android:name=".IntentEmail"></activity>
-        <activity android:name=".IntentCall">
+        <activity android:name=".Animation"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
