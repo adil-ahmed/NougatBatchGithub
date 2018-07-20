@@ -25,17 +25,11 @@
         <activity
             android:name=".Animation"
             android:screenOrientation="landscape"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Timer">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".ListviewActivity">
+            android:theme="@style/AppTheme.NoActionBar">
 
         </activity>
+        <activity android:name=".Timer"></activity>
+        <activity android:name=".ListviewActivity"></activity>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -50,8 +44,13 @@
 
         <activity
             android:name=".MapsActivity"
-            android:label="@string/title_activity_maps">
+            android:label="@string/title_activity_maps"></activity>
+        <activity android:name=".SharedPrefernce">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

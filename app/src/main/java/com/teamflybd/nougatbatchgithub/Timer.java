@@ -9,6 +9,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+/*
+ 14 July
+ Android timer
+ */
 public class  Timer extends AppCompatActivity {
 
     Button timer;
@@ -43,7 +47,7 @@ public class  Timer extends AppCompatActivity {
 
 
 
-        final Handler handler = new Handler();
+         final Handler handler = new Handler();
 
         timer.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,7 +58,7 @@ public class  Timer extends AppCompatActivity {
 
                         // Insert code to be run every second
 
-                        Log.i("Runnable has run!", "a second must have passed...");
+                        Log.i("Runnable has run!", "10 seconds passed...");
                         Toast.makeText(Timer.this, "Button pressed and toast showed after 10 seconds", Toast.LENGTH_SHORT).show();
 
                         handler.postDelayed(this, 10000);
