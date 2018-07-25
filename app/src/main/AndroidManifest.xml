@@ -25,11 +25,9 @@
         <activity
             android:name=".Animation"
             android:screenOrientation="landscape"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
-        <activity android:name=".Timer"></activity>
-        <activity android:name=".ListviewActivity"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Timer" />
+        <activity android:name=".ListviewActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -44,8 +42,12 @@
 
         <activity
             android:name=".MapsActivity"
-            android:label="@string/title_activity_maps"></activity>
-        <activity android:name=".SharedPrefernce">
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".SharedPrefernce"></activity>
+        <activity android:name=".DynamicEditText">
+
+        </activity>
+        <activity android:name=".UserLocation">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
